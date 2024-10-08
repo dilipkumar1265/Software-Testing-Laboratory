@@ -15,7 +15,10 @@ Cases
 5. Stop the program.
 
 ### Program:
+ 
 ```
+1) do while:
+
 start=input("Enter a positive value for START: ")
 end=input("Enter a positive value for END: ")
 if start.isnumeric() and end.isnumeric():
@@ -26,6 +29,69 @@ if start.isnumeric() and end.isnumeric():
        start+=1
 else:
    print("Enter a valid positive number.")
+
+2) while do:
+
+start=input("Enter a positive value for START: ")
+end=input("Enter a positive value for END: ")
+if start.isnumeric() and end.isnumeric():
+    start=int(start)
+    end=int(end)
+    while start<end:
+       print(start)
+       start+=1
+else:
+    print("Enter a valid positive number.")
+
+3) switch :
+def switch(): 
+    switcher = { 
+        0: "even", 
+        1: "odd" 
+    } 
+    
+    n = input('Enter a value for N: ') 
+    
+    try: 
+        n = int(n) 
+        print(switcher[n % 2]) 
+    except ValueError: 
+        print("Enter a valid number.") 
+
+switch()
+
+
+4) if else :
+
+def compare(): 
+    a = input("Enter a value for A: ") 
+    b = input("Enter a value for B: ") 
+    
+    try: 
+        a = int(a) 
+        b = int(b) 
+        
+        if a > b: 
+            print("A is greater than B")  # Added "B" to complete the comparison message
+        elif a < b: 
+            print("B is greater than A")  # Added "A" to complete the comparison message
+        else: 
+            print("A is equal to B") 
+    except ValueError: 
+        print("Enter a valid number.")  # Fixed quotes to standard double quotes
+
+compare()
+
+5) for :
+
+def iterate(): 
+    string = input("Enter a string: ") 
+    
+    for i in string:  # The 'for' statement should be on a single line
+        print(ord(i), end=" ")  # Correct indentation
+
+iterate()
+
 ```
 ### Output:
 ![1 1](https://github.com/user-attachments/assets/19927084-b472-4a79-b26d-950eac871d3a)
