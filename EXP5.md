@@ -1,6 +1,6 @@
-### EX.05
-# DATE : 
-# REG.NO : 212222040037
+# EX.05
+### DATE : 
+### REG.NO : 212222040037
 
 ### AIM: 
 Write a python program to check the number is Armstrong number or not and inspect for failures.
