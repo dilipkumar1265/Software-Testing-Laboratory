@@ -1,4 +1,4 @@
-# Ex.No: 10  Pytest program for Fibonacci Series
+# Ex.No: 11  Pytest program for Fibonacci Series
 
 ### DATE:                                                                            
 ### REGISTER NUMBER : 
