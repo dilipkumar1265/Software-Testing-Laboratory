@@ -7,13 +7,21 @@ Write a Python program to perform a binary search on a sorted list and identify 
 
 ### Algorithm:
 1.Start the program.
+
 2.Initialize low as 0 and high as the length of the array minus 1.
+
 3.Repeat until low is less than or equal to high:
+
 4.Calculate mid as the average of low and high.
+
 5.If the element at index mid is equal to the target, return mid.
+
 6.If the element at index mid is less than the target, set low to mid + 1.
+
 7.If the element at index mid is greater than the target, set high to mid - 1.
+
 8.If the target element is not found, return -1.
+
 9.Stop the program.
 
 
