@@ -1,5 +1,5 @@
 # EX.05 - BINARY SEARCH
-### DATE : 
+### DATE : 10-9-24
 ### REG.NO : 212222040037
 
 ### AIM: 
