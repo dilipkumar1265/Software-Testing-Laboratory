@@ -1,6 +1,6 @@
 # Ex.No: 6 To check whether the string is Palindrome and generate test cases.
 
-### DATE:                                                                            
+### DATE: 17-9-24                                                                           
 ### REGISTER NUMBER : 212222040037
 
 ### AIM: 
