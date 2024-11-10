@@ -1,5 +1,5 @@
 # Ex.No: 8  ATM Applicationn
-### DATE:                                                                            
+### DATE: 1-10-24                                                                          
 ### REGISTER NUMBER : 212222040037
 ### AIM: 
 For ATM system study its system specifications and report various bugs
@@ -92,17 +92,50 @@ Protection against unauthorized access and tampering.
 
 ### Possible Bugs:
 
-Transaction Errors: Transactions not processed correctly due to network interruptions.
+1. Successful insertion of ATM card
 
-UI Errors: Inconsistent or non-intuitive user interface behavior.
+2. Unsuccessful operation due to insert card in wrong angle
 
-Authentication Bugs: Incorrect handling of PIN inputs (e.g., too many retries allowed).
+3. Unsuccessful operation due to invalid account Ex: other bank card or time expired card
 
-Balance Mismatch: Incorrect balance displayed due to server synchronization issues.
+4. successful entry of PIN number
 
-Receipt Errors: Issues in generating or printing transaction receipts.
+5. un successful operation due to enter wrong PIN number 3times 6. successful selection of language
 
-Hardware Malfunctions: Errors with the card reader, cash dispenser, or receipt printer.
+7. successful selection of account type
+
+8. unsuccessful operation due to invalid account type
+
+9. successful selection of withdraw operation
+
+10. successful selection of amount to be withdrawal
+
+11. successful withdraw operation
+
+12. unsuccessful withdraw operation due to wrong denominations
+
+13. unsuccessful withdraw operation due to amount is greater than day limit
+
+14. unsuccessful withdraw operation due to lack of money in ATM
+
+15. unsuccessful withdraw operation due to amount is greater than possible balance
+
+16. unsuccessful withdraw operation due to transactions is greater than day limit
+
+17. unsuccessful withdraw operation due to click cancel after insert card
+
+18. unsuccessful withdraw operation due to click cancel after insert card & pin number
+
+19. unsuccessful withdraw operation due to click cancel after insert card, pin number & language
+
+20. unsuccessful withdraw operation due to click cancel after insert card, pin number, language
+&account type
+
+21. unsuccessful withdrawal operation due to click cancel after insert card, pin number, language,
+account type & withdrawal operation
+
+22. unsuccessful withdrawal operation due to click cancel after insert card, pin number, language,
+account type, withdrawal operation &amount to be withdraw
 
 ### Result:
 Thus, the ATM system specifications and reporting the various bugs is implemented and output was verified successfully
